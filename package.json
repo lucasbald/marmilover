@@ -1,0 +1,19 @@
+{
+  "name": "marmilover",
+  "version": "1.0.0",
+  "description": "This is a chrome extension that make our dream come true .. now we can order our 'marmitas' =)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbald/marmilover.git"
+  },
+  "author": "marmilovers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbald/marmilover/issues"
+  },
+  "homepage": "https://github.com/lucasbald/marmilover#readme"
+}
