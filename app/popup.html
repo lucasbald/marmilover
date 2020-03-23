@@ -1,25 +1,41 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <!-- build:css styles/popup-vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css styles/main.css -->
-    <link href="styles/main.css" rel="stylesheet">
-    <!-- endbuild -->
-  </head>
-  <body>
-    <h1>Hello, marmilover s2!</h1>
 
-    <!-- build:js scripts/popup-vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <!-- endbuild -->
+<head>
+  <meta charset="utf-8">
+  <title>Popup</title>
+  <link rel="stylesheet" type="text/css" href="./styles/popup.css">
+  <link rel="stylesheet" type="text/css" href="./libs/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="./libs/bulma-accordion.min.css">
+  <script type="text/javascript" src="./libs/bulma-accordion.min.js"></script>
+</head>
 
-    <!-- build:js scripts/popup.js -->
-    <script src="scripts/popup.js"></script>
-    <!-- endbuild -->
-  </body>
+<body>
+  <div id="app"></div>
+  <section class="nav-header">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="./images/icon-38.png" width="28" height="108">
+        </a>
+        
+        <div class="tabs is-small">
+          <ul>
+            <li class="is-active"><a>Tartanero</a></li>
+            <li><a>Cássia</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="options">
+    <div class="buttons">
+      <button id="smallSizeButton" class="button is-link is-light">Small</button>
+      <script src="./scripts/popup.js"></script>
+      <button id="mediumSizeButton"class="button is-link is-light">Medium</button>
+      
+    </div>
+  </section>
+</body>
+
 </html>

@@ -1,0 +1,13 @@
+#app {
+  min-width: 400px;
+}
+
+.options {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.button.is-link.is-light {
+  background-color: #eef3fc;
+  color: #2160c4;
+}
